@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    // height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #000;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 15vw;
+    min-height: 100vh;
+}
+
+.link__title {
+    margin-left: 2vw;
+}
+.twitch__title {
+    margin-left: 2vw;
+}
+
+@media screen and (max-width: 700px) {
+    .media__content,
+    .media__resurce {
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+
+    .link__title {
+        margin-left: 0;
+    }
+
+    .twitch__title {
+        margin-left: 0;
+    }
+    
+    .social__title,
+    .link__title,
+    .sponsor__title,
+    .video__yt,
+    .twitch__title {
+        margin-bottom: 4vh;
+    }
+
+    .abscontent-center {
+        font-size: 20vw;
+    }
+
+    .abscontent-center::after {
+        font-size: 3vw;
+    }
+
+    .abscontent-left {
+        width: 7vw;
+        height: 7vh;
+        left: 5%;
+        top: 3%;
+    }
+
+    .social,
+    .link,
+    .sponsors,
+    .video,
+    .twitch {
+        height: 18vh;
+    }
+
+    .setup__block {
+        color: #fff;
+        font-size: 0.5vh;
+        
+    }
+    
+    .setup__block-sub {
+
+        color: #999;
+        font-size: 0.1vh;
+    }
+
+    .setup-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 1vw 1vw;
+        grid-template-areas: 
+        ". . . ."
+        ". . . .";
+    }
+    .social__link {
+        font-size: 1.7vh;
+    }
+}
+
+.abscontent {
+    display: flex;
+    flex-direction: row;
+    background: rgb(252,252,252);
+    background: linear-gradient(0deg, rgba(252,252,252,0) 0%, rgba(210,0,0,0.6197438837920489) 53%, rgba(255,0,0,0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    min-height: 100vh;
+}
+
+
+.abscontent-center {
+    font-size: 10vw;
+    color: #fff;
+    height: 14vh;
+    margin: auto;
+    cursor: default;
+    user-select: none;
+}
+.abscontent-center::after {
+    content: "®";
+    font-size: 2.5vw;
+    color: #fff;
+    float: right;
+    margin-top: 1vw;
+}
+
+.abscontent-left {
+    content: "213";
+    background-image:url(/images/sm-logo.svg);
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 5vh;
+    left: 1%;
+    top: 1%;
+    position: fixed;
+}
+
+.container__media {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+    flex-wrap: wrap;
+}
+
+.media__content,
+.media__resurce {
+    display: flex;
+    justify-content: left;
+}
+
+.media__content,
+.media__sponsors,
+.media__resurce {
+    min-height: 5vh;
+}
+
+.social__title,
+.link__title,
+.sponsor__title,
+.video__yt,
+.twitch__title {
+    color: #fff;
+    font-size: 4vh;
+    min-width: 35vw;
+    border-bottom: 2px solid #999;
+    margin-bottom: 3vh;
+    cursor: default;
+    user-select: none;
+}
+
+.social,
+.link,
+.sponsors,
+.video,
+.twitch {
+    min-height: 10vh;
+    cursor: default;
+    user-select: none;
+}
+
+.setup {
+    cursor: default;
+    user-select: none;
+    display: flex;
+    color: #fff;
+    font-size: 4vh;
+    border-bottom: 2px solid #999;
+    margin-bottom: 1vh;
+}
+
+.setup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3vw 3vw;
+    margin-bottom: 5vh;
+}
+
+.setup__block {
+    color: rgb(195, 195, 195);
+    font-size: 2.5vh;
+    cursor: default;
+    user-select: none;
+}
+
+.setup__block-sub {
+    color: rgb(124, 124, 124);
+    font-size: 1.5vh;
+    cursor: default;
+    user-select: none;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4vw 4vw;
+    color: #fff;
+    margin-bottom: 5vh;
+}
+
+.social__link {
+    font-size: 1.7vh;
+}
+.social__link::after {
+    content: "";
+    background-image: url(/images/arrow-right.svg);
+    background-color: #fff;
+    float: right;
+    filter: invert(100%);
+}
+
+
+
