@@ -21,11 +21,89 @@ body {
     min-height: 100vh;
 }
 
-.link__title {
-    margin-left: 2vw;
+
+
+.social__link {
+    font-size: 2vh;
+    width: 3vw;
+    height: 2vh;
+    position: relative;
 }
-.twitch__title {
-    margin-left: 2vw;
+
+.social__link:hover .arrow-r {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.arrow-r {
+    filter: invert(100%);
+    position: absolute;
+    right: -6.5vw;
+    top: -0.1vw;
+    height: 20px;
+    width: 20px;
+}
+
+.arrow-r:hover {
+    right: -6vw;
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.link {
+    margin-left: 3vh;
+}
+
+
+
+.link-grid {
+    display: grid;
+    font-size: 2vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2vw 2vw;
+    color: #fff;
+    position: relative;
+}
+.link__link:hover .arrow-rr {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.arrow-rr {
+    filter: invert(100%);
+    position: absolute;
+    left: 10vw;
+    top: -0.1vw;
+    height: 20px;
+    width: 20px;
+}
+
+.arrow-rr:hover {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.sponsors__logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsor {
+    margin-bottom: 5vh;
+}
+
+.twitch__logo:hover,
+.steam__logo:hover {
+    opacity: 1;
+}
+.twitch__logo,
+.steam__logo {
+    height: 100%;
+    width: 100%;
+    max-width: 340px;
+    max-height: 180px;
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 700px) {
@@ -96,8 +174,48 @@ body {
         ". . . ."
         ". . . .";
     }
+
     .social__link {
-        font-size: 1.7vh;
+        position: relative;
+        font-size: 2vh;
+    }
+
+    .arrow-r {
+        position: absolute;
+        left: 15vw;
+        top: -5px;
+    }
+
+    .link,
+    .twitch {
+        margin-left: 0vh;
+    }
+
+    .arrow-rr {
+        left: 20vw;
+        top: -0.5vw;
+        height: 20px;
+        width: 20px;
+    }
+
+    .sponsors__logo {
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsors {
+        margin-bottom: 38vw;
+    }
+    
+    .twitch__logo,
+    .steam__logo {
+    height: 100%;
+    width: 100%;
+    max-width: 450px;
+    opacity: 0.8;
+    }
+
+    .setup {
+        margin-top: 7vh;
     }
 }
 
@@ -105,7 +223,7 @@ body {
     display: flex;
     flex-direction: row;
     background: rgb(252,252,252);
-    background: linear-gradient(0deg, rgba(252,252,252,0) 0%, rgba(210,0,0,0.6197438837920489) 53%, rgba(255,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(252,252,252,0) 0%, rgba(210, 0, 0, 0.62) 53%, rgba(255,0,0,0) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -130,8 +248,8 @@ body {
 }
 
 .abscontent-left {
-    content: "213";
-    background-image:url(/images/sm-logo.svg);
+    content: "";
+    background-image:url(images/sm-logo.svg);
     background-repeat: no-repeat;
     width: 5vw;
     height: 5vh;
@@ -147,7 +265,6 @@ body {
     flex-wrap: wrap;
 }
 
-.media__content,
 .media__resurce {
     display: flex;
     justify-content: left;
@@ -183,6 +300,8 @@ body {
     user-select: none;
 }
 
+
+
 .setup {
     cursor: default;
     user-select: none;
@@ -191,13 +310,14 @@ body {
     font-size: 4vh;
     border-bottom: 2px solid #999;
     margin-bottom: 1vh;
+    // margin-top: 8vh;
 }
 
 .setup-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 3vw 3vw;
+    gap: 2vw 2vw;
     margin-bottom: 5vh;
 }
 
@@ -219,21 +339,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 4vw 4vw;
+    gap: 2vw 2vw;
     color: #fff;
     margin-bottom: 5vh;
 }
 
-.social__link {
-    font-size: 1.7vh;
-}
-.social__link::after {
-    content: "";
-    background-image: url(/images/arrow-right.svg);
-    background-color: #fff;
-    float: right;
-    filter: invert(100%);
+.link__title__link {
+    margin-left: 10px;
 }
 
-
-
+.twitch__title-a {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4vh;
+}

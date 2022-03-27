@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>WARR</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
+<link rel="icon" href="/images/logo-sm.svg" type="image/x-icon">
 <body>
 
   <div class="abscontent">
@@ -33,23 +34,23 @@
             socials
           </div>
           <div class="social-grid">
-            <a href="#" class="social__link">
-              Instagram
+            <a href="https://instagram.com/wvsci/" class="social__link">
+              Instagram <img src="/images/arrow-right.svg" class="arrow-r">
             </a>
-            <a href="#" class="social__link">
-              twitter
+            <a href="https://twitter.com/qqqqvo" class="social__link">
+              twitter <img src="/images/arrow-right.svg" class="arrow-r">
             </a>
-            <a href="#" class="social__link">
-              youtube
+            <a href="https://www.youtube.com/channel/UCajp020byuP-7mKXnUHoQsw " class="social__link">
+              youtube <img src="/images/arrow-right.svg" class="arrow-r">
             </a>
-            <a href="#" class="social__link">
-              twitch
+            <a href="https://twitch.tv/qqqqvo" class="social__link">
+              twitch <img src="/images/arrow-right.svg" class="arrow-r">
             </a>
-            <a href="#" class="social__link">
-              steam
+            <a href="https://steamcommunity.com/-warr" class="social__link">
+              steam <img src="/images/arrow-right.svg" class="arrow-r">
             </a>
-            <a href="#" class="social__link">
-              discord
+            <a href="https://discord.gg/uvqTNNtQ" class="social__link">
+              discord <img src="/images/arrow-right.svg" class="arrow-r">
             </a>
         </div>
         </div>
@@ -57,29 +58,48 @@
           <div class="link__title">
             links
           </div>
+          <div class="link-grid">
+            <a href="https://drive.google.com/file/d/1bCeHkPOBC7Li9oM8itPvvhrpLjHwZjzJ/view?usp=sharing" class="link__link">
+              csgo config <img src="/images/arrow-right.svg" alt="" class="arrow-rr">
+            </a>
+
+        </div>
         </div>
       </section>
 
       <section class="sponsors">
         <div class="sponsor">
           <div class="sponsor__title">
-            sponsors
+            sponsors            
+          </div>
+          <div class="sponsors__logo">
+            <a href="https://twitch.tv/"><img  src="/images/twitch-logo.jpg" class="twitch__logo"></a>
+            <a href="https://steamcommunity.com/"><img src="/images/steam-logo.jpg" class="steam__logo"></a>
           </div>
         </div>
       </section>
 
       <section class="media__content">
-        <div class="video">
+        <!-- <div class="video">
           <div class="video__yt">
             latest video
           </div>
           <div class="video__content">
             
           </div>
-        </div>
+        </div> -->
         <div class="twitch">
           <div class="twitch__title">
             twitch stream
+          </div>
+          <div class="twitch__title-a">
+              <div id="twitch-embed"></div>
+              <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+              <script type="text/javascript">
+                new Twitch.Player("twitch-embed", {
+                  channel: "qqqqvo"
+                });
+              </script>
           </div>
           <div class="twitch__content">
             

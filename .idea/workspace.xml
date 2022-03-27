@@ -11,38 +11,29 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b357edf-f411-48bb-9233-b64e1379d374" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/1st.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/4444.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/8kBW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/8kBW1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/8kBW2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/8kcolor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo-sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo-sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sm-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/video-play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slick.min.js" afterDir="false" />
+    <list default="true" id="3b357edf-f411-48bb-9233-b64e1379d374" name="Default Changelist" comment="create website 'warr'">
+      <change afterPath="$PROJECT_DIR$/css/images/4444.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/8kBW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/8kBW1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/8kBW2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/8kcolor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/dot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/logo-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/logo-sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/sm-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/video-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +50,20 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="23nHQbUVxFP59w0JQMZ2kC8jVp6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../2st" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunAnythingCache">
@@ -93,8 +87,18 @@
       <workItem from="1645346549937" duration="438000" />
       <workItem from="1645438033101" duration="981000" />
       <workItem from="1645440306965" duration="1603000" />
-      <workItem from="1645442722450" duration="456000" />
+      <workItem from="1645442722450" duration="1444000" />
+      <workItem from="1645444429259" duration="5023000" />
+      <workItem from="1645607507388" duration="454000" />
     </task>
+    <task id="LOCAL-00001" summary="create website 'warr'">
+      <created>1645443429379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645443429379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +120,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -129,6 +133,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create website 'warr'" />
+    <option name="LAST_COMMIT_MESSAGE" value="create website 'warr'" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" width="445" height="274" key="#Notifications" timestamp="1645440329776">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -138,17 +147,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1645346673078" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1645442552743">
+    <state x="683" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1645607760293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645442552743" />
-    <state x="461" y="165" width="984" height="710" key="SettingsEditor" timestamp="1645442702394">
+    <state x="683" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040@0.0.1920.1040" timestamp="1645607760293" />
+    <state x="622" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1645607852350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" width="984" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1645442702394" />
+    <state x="622" y="298" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645607852350" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1645607963851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645607963851" />
+    <state x="461" y="165" width="984" height="710" key="SettingsEditor" timestamp="1645607935787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" width="984" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1645607935787" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1645440282492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1645440282492" />
+    <state x="745" y="378" key="scopes" timestamp="1645607806849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="745" y="378" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1645607806849" />
   </component>
 </project>
